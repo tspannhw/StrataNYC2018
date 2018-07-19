@@ -1,0 +1,121 @@
+{
+ "type": "record",
+ "name": "gps",
+ "fields": [
+  {
+   "name": "speed",
+   "type": "string",
+   "doc": "Type inferred from '\"0.066\"'"
+  },
+  {
+   "name": "diskfree",
+   "type": "string",
+   "doc": "Type inferred from '\"4830.3 MB\"'"
+  },
+  {
+   "name": "altitude",
+   "type": "string",
+   "doc": "Type inferred from '\"43.0\"'"
+  },
+  {
+   "name": "ts",
+   "type": "string",
+   "doc": "Type inferred from '\"2018-07-18 23:46:39\"'"
+  },
+  {
+   "name": "cputemp",
+   "type": "double",
+   "doc": "Type inferred from '54.0'"
+  },
+  {
+   "name": "latitude",
+   "type": "string",
+   "doc": "Type inferred from '\"40.2681555\"'"
+  },
+  {
+   "name": "track",
+   "type": "string",
+   "doc": "Type inferred from '\"0.0\"'"
+  },
+  {
+   "name": "memory",
+   "type": "double",
+   "doc": "Type inferred from '32.3'"
+  },
+  {
+   "name": "host",
+   "type": "string",
+   "doc": "Type inferred from '\"rainbow\"'"
+  },
+  {
+   "name": "uniqueid",
+   "type": "string",
+   "doc": "Type inferred from '\"gps_uuid_20180718234640\"'"
+  },
+  {
+   "name": "ipaddress",
+   "type": "string",
+   "doc": "Type inferred from '\"192.168.1.165\"'"
+  },
+  {
+   "name": "epd",
+   "type": "string",
+   "doc": "Type inferred from '\"nan\"'"
+  },
+  {
+   "name": "utc",
+   "type": "string",
+   "doc": "Type inferred from '\"2018-07-18T23:46:40.000Z\"'"
+  },
+  {
+   "name": "epx",
+   "type": "string",
+   "doc": "Type inferred from '\"40.135\"'"
+  },
+  {
+   "name": "epy",
+   "type": "string",
+   "doc": "Type inferred from '\"42.783\"'"
+  },
+  {
+   "name": "epv",
+   "type": "string",
+   "doc": "Type inferred from '\"171.35\"'"
+  },
+  {
+   "name": "ept",
+   "type": "string",
+   "doc": "Type inferred from '\"0.005\"'"
+  },
+  {
+   "name": "eps",
+   "type": "string",
+   "doc": "Type inferred from '\"85.57\"'"
+  },
+  {
+   "name": "longitude",
+   "type": "string",
+   "doc": "Type inferred from '\"-74.529094\"'"
+  },
+  {
+   "name": "mode",
+   "type": "string",
+   "doc": "Type inferred from '\"3\"'"
+  },
+  {
+   "name": "time",
+   "type": "string",
+   "doc": "Type inferred from '\"2018-07-18T23:46:40.000Z\"'"
+  },
+  {
+   "name": "climb",
+   "type": "string",
+   "doc": "Type inferred from '\"0.0\"'"
+  },
+  {
+   "name": "epc",
+   "type": "string",
+   "doc": "Type inferred from '\"nan\"'"
+  }
+ ]
+}
