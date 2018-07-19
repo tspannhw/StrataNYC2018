@@ -1,0 +1,66 @@
+{
+ "type": "record",
+ "name": "rainbow",
+ "fields": [
+  {
+   "name": "tempf",
+   "type": "double",
+   "doc": "Type inferred from '84.15'"
+  },
+  {
+   "name": "cputemp",
+   "type": "double",
+   "doc": "Type inferred from '53.0'"
+  },
+  {
+   "name": "pressure",
+   "type": "double",
+   "doc": "Type inferred from '101028.56'"
+  },
+  {
+   "name": "host",
+   "type": "string",
+   "doc": "Type inferred from '\"rainbow\"'"
+  },
+  {
+   "name": "uniqueid",
+   "type": "string",
+   "doc": "Type inferred from '\"rainbow_uuid_20180718234222\"'"
+  },
+  {
+   "name": "ipaddress",
+   "type": "string",
+   "doc": "Type inferred from '\"192.168.1.165\"'"
+  },
+  {
+   "name": "temp",
+   "type": "double",
+   "doc": "Type inferred from '38.58'"
+  },
+  {
+   "name": "diskfree",
+   "type": "string",
+   "doc": "Type inferred from '\"4831.2 MB\"'"
+  },
+  {
+   "name": "altitude",
+   "type": "double",
+   "doc": "Type inferred from '80.65'"
+  },
+  {
+   "name": "ts",
+   "type": "string",
+   "doc": "Type inferred from '\"2018-07-18 23:42:22\"'"
+  },
+  {
+   "name": "tempf2",
+   "type": "double",
+   "doc": "Type inferred from '28.97'"
+  },
+  {
+   "name": "memory",
+   "type": "double",
+   "doc": "Type inferred from '32.3'"
+  }
+ ]
+}
