@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description>rainbow minifi four 2018 sept 11</description>
+    <groupId>a5ce5c5d-0165-1000-fa19-d65eeccc01e0</groupId>
+    <name>rainbowminifi4</name>
+    <snippet>
+        <connections>
+            <id>30c9dadb-c1ce-36f0-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <versionedComponentId>30c9dadb-c1ce-36f0-96df-dc52be636ca2</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>eee5acce-70cc-39cb-0000-000000000000</groupId>
+                <id>2de34241-6b17-3819-9fa7-70804a6ed340</id>
+                <type>REMOTE_INPUT_PORT</type>
+                <versionedComponentId>f2ccf566-0e1e-37cd-bb35-ca65dc7b46dc</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>2d145077-a464-3b6e-0000-000000000000</groupId>
+                <id>bf3400c3-584c-3954-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>bf3400c3-584c-3954-9374-26e6437e1377</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>9174b3ca-6a63-3cd4-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <versionedComponentId>9174b3ca-6a63-3cd4-abb8-0cefdd67ea33</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>eee5acce-70cc-39cb-0000-000000000000</groupId>
+                <id>2de34241-6b17-3819-9fa7-70804a6ed340</id>
+                <type>REMOTE_INPUT_PORT</type>
+                <versionedComponentId>f2ccf566-0e1e-37cd-bb35-ca65dc7b46dc</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>2d145077-a464-3b6e-0000-000000000000</groupId>
+                <id>1c6ff8e8-6330-3372-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>1c6ff8e8-6330-3372-b289-8c5694a838e8</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>962bc37a-3b6f-3748-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>eee5acce-70cc-39cb-0000-000000000000</groupId>
+                <id>2de34241-6b17-3819-9fa7-70804a6ed340</id>
+                <type>REMOTE_INPUT_PORT</type>
+                <versionedComponentId>f2ccf566-0e1e-37cd-bb35-ca65dc7b46dc</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>2d145077-a464-3b6e-0000-000000000000</groupId>
+                <id>aba8f4e5-a7a2-3f44-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c7ebdbfd-c7af-354c-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <versionedComponentId>c7ebdbfd-c7af-354c-a149-a8390345838e</versionedComponentId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>eee5acce-70cc-39cb-0000-000000000000</groupId>
+                <id>2de34241-6b17-3819-9fa7-70804a6ed340</id>
+                <type>REMOTE_INPUT_PORT</type>
+                <versionedComponentId>f2ccf566-0e1e-37cd-bb35-ca65dc7b46dc</versionedComponentId>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>2d145077-a464-3b6e-0000-000000000000</groupId>
+                <id>40fa0a84-a411-37d5-0000-000000000000</id>
+                <type>PROCESSOR</type>
+                <versionedComponentId>40fa0a84-a411-37d5-818b-eaf01c78a0bd</versionedComponentId>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <processors>
+            <id>1c6ff8e8-6330-3372-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <position>
+                <x>762.0000830078125</x>
+                <y>231.46993909179696</y>
+            </position>
+            <versionedComponentId>1c6ff8e8-6330-3372-b289-8c5694a838e8</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Command</key>
+                        <value>
+                            <name>Command</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                        <value>
+                            <name>Command Arguments</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                        <value>
+                            <name>Batch Duration</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>
+                            <name>Redirect Error Stream</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                        <value>
+                            <name>Working Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value>
+                            <name>Argument Delimiter</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Command</key>
+                        <value>/opt/demo/minifi.sh</value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value> </value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>59 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>Rainbow Sensors</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteProcess</type>
+        </processors>
+        <processors>
+            <id>40fa0a84-a411-37d5-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <position>
+                <x>788.400107421875</x>
+                <y>424.8900135546876</y>
+            </position>
+            <versionedComponentId>40fa0a84-a411-37d5-818b-eaf01c78a0bd</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Command</key>
+                        <value>
+                            <name>Command</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                        <value>
+                            <name>Command Arguments</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                        <value>
+                            <name>Batch Duration</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>
+                            <name>Redirect Error Stream</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                        <value>
+                            <name>Working Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value>
+                            <name>Argument Delimiter</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Command</key>
+                        <value>/opt/demo/gps.sh</value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value> </value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>57 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GPS Sensor</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteProcess</type>
+        </processors>
+        <processors>
+            <id>aba8f4e5-a7a2-3f44-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <position>
+                <x>791.400107421875</x>
+                <y>625.8900135546876</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Command</key>
+                        <value>
+                            <name>Command</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                        <value>
+                            <name>Command Arguments</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                        <value>
+                            <name>Batch Duration</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>
+                            <name>Redirect Error Stream</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                        <value>
+                            <name>Working Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value>
+                            <name>Argument Delimiter</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Command</key>
+                        <value>/opt/demo/tensorflow.sh</value>
+                    </entry>
+                    <entry>
+                        <key>Command Arguments</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Duration</key>
+                    </entry>
+                    <entry>
+                        <key>Redirect Error Stream</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Working Directory</key>
+                    </entry>
+                    <entry>
+                        <key>Argument Delimiter</key>
+                        <value> </value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>25 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>TensorFlow Classification</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteProcess</type>
+        </processors>
+        <processors>
+            <id>bf3400c3-584c-3954-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <position>
+                <x>616.940113613281</x>
+                <y>0.0</y>
+            </position>
+            <versionedComponentId>bf3400c3-584c-3954-9374-26e6437e1377</versionedComponentId>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.7.0</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Input Directory</key>
+                        <value>
+                            <name>Input Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>File Filter</key>
+                        <value>
+                            <name>File Filter</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Path Filter</key>
+                        <value>
+                            <name>Path Filter</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <name>Batch Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keep Source File</key>
+                        <value>
+                            <name>Keep Source File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Recurse Subdirectories</key>
+                        <value>
+                            <name>Recurse Subdirectories</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Polling Interval</key>
+                        <value>
+                            <name>Polling Interval</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Hidden Files</key>
+                        <value>
+                            <name>Ignore Hidden Files</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Age</key>
+                        <value>
+                            <name>Minimum File Age</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Age</key>
+                        <value>
+                            <name>Maximum File Age</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Size</key>
+                        <value>
+                            <name>Minimum File Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Size</key>
+                        <value>
+                            <name>Maximum File Size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Input Directory</key>
+                        <value>/opt/demo/logs</value>
+                    </entry>
+                    <entry>
+                        <key>File Filter</key>
+                        <value>[^\.].*</value>
+                    </entry>
+                    <entry>
+                        <key>Path Filter</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>25</value>
+                    </entry>
+                    <entry>
+                        <key>Keep Source File</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Recurse Subdirectories</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Polling Interval</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Hidden Files</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Age</key>
+                        <value>5 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Age</key>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Size</key>
+                        <value>4 B</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Size</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>5 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>JSON Logs</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GetFile</type>
+        </processors>
+        <remoteProcessGroups>
+            <id>eee5acce-70cc-39cb-0000-000000000000</id>
+            <parentGroupId>2d145077-a464-3b6e-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>561.4899073535157</y>
+            </position>
+            <versionedComponentId>eee5acce-70cc-39cb-b4f0-fee320ed3e77</versionedComponentId>
+            <comments></comments>
+            <communicationsTimeout>30 sec</communicationsTimeout>
+            <contents>
+                <inputPorts>
+                    <batchSettings/>
+                    <comments></comments>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <connected>false</connected>
+                    <exists>true</exists>
+                    <groupId>a5cfcc8c-0165-1000-c1f2-7c712c42c019</groupId>
+                    <id>1bd737d3-a8e2-3b1f-bdf6-6e7858a0120d</id>
+                    <name>TX1 Input</name>
+                    <targetId>d21af8df-072a-3322-a48a-42a7f4018958</targetId>
+                    <targetRunning>false</targetRunning>
+                    <transmitting>false</transmitting>
+                    <useCompression>false</useCompression>
+                </inputPorts>
+                <inputPorts>
+                    <batchSettings/>
+                    <comments></comments>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <connected>false</connected>
+                    <exists>true</exists>
+                    <groupId>a5cfcc8c-0165-1000-c1f2-7c712c42c019</groupId>
+                    <id>9559d931-4330-3d8d-9fe2-67fe3270c124</id>
+                    <name>AIY VOICE INPUT</name>
+                    <targetId>a98f21f3-a90d-3118-a715-ca3c747ac291</targetId>
+                    <targetRunning>false</targetRunning>
+                    <transmitting>false</transmitting>
+                    <useCompression>false</useCompression>
+                </inputPorts>
+                <inputPorts>
+                    <batchSettings/>
+                    <comments></comments>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <connected>true</connected>
+                    <exists>true</exists>
+                    <groupId>a5cfcc8c-0165-1000-c1f2-7c712c42c019</groupId>
+                    <id>bc78ea0c-d081-3516-a5a5-6694559d0d8f</id>
+                    <name>tensorflow minifi input</name>
+                    <targetId>a5d0ce73-0165-1000-cd99-6bc758d4b058</targetId>
+                    <targetRunning>false</targetRunning>
+                    <transmitting>true</transmitting>
+                    <useCompression>false</useCompression>
+                    <versionedComponentId>8ee1322a-fe67-3a53-a833-133b40575315</versionedComponentId>
+                </inputPorts>
+                <inputPorts>
+                    <batchSettings/>
+                    <comments></comments>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <connected>true</connected>
+                    <exists>true</exists>
+                    <groupId>a5cfcc8c-0165-1000-c1f2-7c712c42c019</groupId>
+                    <id>2de34241-6b17-3819-9fa7-70804a6ed340</id>
+                    <name>MiniFi Rainbow</name>
+                    <targetId>ae4265e0-0164-1000-ba88-998a17b9a8bc</targetId>
+                    <targetRunning>true</targetRunning>
+                    <transmitting>true</transmitting>
+                    <useCompression>false</useCompression>
+                    <versionedComponentId>f2ccf566-0e1e-37cd-bb35-ca65dc7b46dc</versionedComponentId>
+                </inputPorts>
+                <inputPorts>
+                    <batchSettings/>
+                    <comments></comments>
+                    <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                    <connected>false</connected>
+                    <exists>true</exists>
+                    <groupId>a5cfcc8c-0165-1000-c1f2-7c712c42c019</groupId>
+                    <id>32967e03-3411-3358-b494-3268a6e07d0a</id>
+                    <name>Movidius Input</name>
+                    <targetId>7ebfacb7-dc7f-3f3b-d9c0-feb01d93b82f</targetId>
+                    <targetRunning>true</targetRunning>
+                    <transmitting>false</transmitting>
+                    <useCompression>false</useCompression>
+                </inputPorts>
+            </contents>
+            <proxyHost></proxyHost>
+            <proxyUser></proxyUser>
+            <targetUri>http://hw13125.local:8080/nifi</targetUri>
+            <targetUris>http://hw13125.local:8080/nifi</targetUris>
+            <transportProtocol>HTTP</transportProtocol>
+            <yieldDuration>10 sec</yieldDuration>
+        </remoteProcessGroups>
+    </snippet>
+    <timestamp>09/11/2018 15:17:43 EDT</timestamp>
+</template>
